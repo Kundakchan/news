@@ -1,7 +1,7 @@
 export default {
   apiKey: 'AIzaSyAcU7dmOtbOLSwlLIZwDvp-Oidqo9Da9dg',
   authDomain: 'news-app-72272.firebaseapp.com',
-  databaseURL: 'https://news-app-72272.firebaseio.com',
+  databaseURL: 'https://news-app-72272.firebaseio.com/',
   projectId: 'news-app-72272',
   storageBucket: '',
   messagingSenderId: '734939053882',

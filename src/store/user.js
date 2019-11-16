@@ -41,9 +41,7 @@ export default {
     },
     LOG_OUT ({ commit }) {
       firebase.auth().signOut()
-        .then(() => {
-          commit('setUser', null)
-        })
+      commit('setUser', null)
     }
   },
   getters: {

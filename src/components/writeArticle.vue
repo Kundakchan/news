@@ -38,9 +38,7 @@ export default {
       const post = {
         title: this.title,
         discription: this.discription,
-        content: this.content,
-        datePost: new Date(),
-        author: this.$store.getters.getUser
+        content: this.content
       }
       this.$store.dispatch('POST', post)
       this.clearForm()

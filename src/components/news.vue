@@ -33,7 +33,6 @@ export default {
         .then(data => {
           this.list(data.articles)
           this.times(data.articles[0].publishedAt)
-          console.log(data)
         })
     },
     list (data) {

@@ -46,6 +46,10 @@ export default {
             path: '/write'
           },
           {
+            name: 'статьи'.toUpperCase(),
+            path: '/post'
+          },
+          {
             name: 'НОВОСТИ',
             path: '#',
             categoris: [

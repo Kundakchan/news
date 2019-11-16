@@ -39,6 +39,11 @@ export default new Router({
       beforeEnter (to, from, next) {
         store.getters.checkUser ? next() : next('/signin')
       }
+    },
+    {
+      path: '/post',
+      name: 'post',
+      component: () => import('@/components/post.vue')
     }
   ]
 })
